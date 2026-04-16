@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_audio" android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnAudioQuality" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_audio_quality" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnStorage" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_storage" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnDefaultEffect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_default_effect" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:id="@+id/switchBiometric" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_biometric" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/settings_more" android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnAdPrefs" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_ad_prefs" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnPrivacy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_privacy" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnRate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_rate" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnShareApp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/settings_share" />
+
+        <TextView
+            android:id="@+id/tvVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:text="@string/settings_version" />
+
+        <FrameLayout
+            android:id="@+id/adContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

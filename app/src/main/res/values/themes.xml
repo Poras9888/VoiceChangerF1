@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.VoiceChanger" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="colorPrimaryVariant">@color/card_blue</item>
+        <item name="colorSecondary">@color/coral</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
